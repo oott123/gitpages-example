@@ -1,0 +1,2 @@
+allowCors: true
+notFoundErrorPage: /404.html
