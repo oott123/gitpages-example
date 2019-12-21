@@ -1,2 +1,2 @@
-allowCors: true
-notFoundErrorPage: /404.html
+allowCors = true
+notFoundErrorPage = /404.html
