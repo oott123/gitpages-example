@@ -1,2 +1,7 @@
 AllowCORS = true
 NotFoundErrorPage = "/404.html"
+
+[[Rules]]
+Match = "^/foo/.*"
+AllowCORS = false
+AllowListDirectory = true
