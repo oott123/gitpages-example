@@ -1,5 +1,5 @@
 AllowCORS = true
-NotFoundErrorPage = "/404.html"
+NotFoundErrorPage = "/bar/error.html"
 
 [[Rules]]
 Match = "^/foo/.*"
