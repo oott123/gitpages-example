@@ -5,7 +5,7 @@ CrossSiteProtection = true
 CrossSiteProtectionOnlyEmptyReferrer = true
 ReferrerProtection = true
 ReferrerAllowed = [
-  "^https?://(localhost|127.0.0.1)(:\d+)?/.*$"
+  "^https?://(localhost|127.0.0.1)(:\\d+)?/.*$"
 ]
 
 [AddHeader]
