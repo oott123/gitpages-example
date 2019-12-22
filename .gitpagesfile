@@ -1,6 +1,11 @@
 AllowCORS = true
 NotFoundErrorPage = "/bar/error.html"
 ForbiddenErrorPage = "/forbidden.html"
+CrossSiteProtection = true
+CrossSiteProtectionOnlyEmptyReferrer = true
+
+[AddHeader]
+Cache-Control = "public, max-age=86400"
 
 [[Rules]]
 Match = "^/foo/.*"
